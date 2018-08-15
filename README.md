@@ -1,5 +1,12 @@
 # Micro Services Course Notes
 
+## Useful Links
+
+[Kubernetes Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+
+
+
 ## LABS
 
 ### Sign Up for Google Cloud
