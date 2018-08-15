@@ -1,7 +1,7 @@
 
+# Create Logging Pod
 
-
-# Create a Logging Pod
+#### Create a Logging Pod
 
 http://kubernetesbyexample.com/logging/
 
