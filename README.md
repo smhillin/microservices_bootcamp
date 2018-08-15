@@ -66,7 +66,7 @@ https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-applica
 https://github.com/smhillin/microservices_bootcamp/tree/master/example-voting-app
 
 
-### Other Practice Repos
+## Other Practice Repos
 
 https://github.com/gravitational/workshop/blob/master/k8s101.md
 
