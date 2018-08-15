@@ -31,6 +31,8 @@
 
 #### Use the env-pod.yaml file to create a Pod that consumes the ConfigMap in environment variables.
 
+`wget wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/command-pod.yaml`
+
  `kubectl create -f docs/user-guide/configmap/env-pod.yaml`
 
 #### This pod runs the env command to display the environment of the container:
