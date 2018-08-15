@@ -31,9 +31,9 @@
 
 #### Use the env-pod.yaml file to create a Pod that consumes the ConfigMap in environment variables.
 
-`wget wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/command-pod.yaml`
+`wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/env-pod.yaml`
 
- `kubectl create -f docs/user-guide/configmap/env-pod.yaml`
+ `kubectl create -f env-pod.yaml`
 
 #### This pod runs the env command to display the environment of the container:
 
@@ -44,7 +44,9 @@
 
 #### Use the command-pod.yaml file to create a Pod with a container whose command is injected with the keys of a ConfigMap
 
-`kubectl create -f docs/user-guide/configmap/command-pod.yaml`
+`wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/command-pod.yaml`
+
+`kubectl create -f command-pod.yaml`
 
 #### This pod runs an echo command to display the keys:
 
@@ -54,8 +56,9 @@
 
 #### Pods can also consume ConfigMaps in volumes. Use the volume-pod.yaml file to create a Pod that consume the ConfigMap in a volume.
 
+`wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/volume-pod.yal`
 
-`kubectl create -f docs/user-guide/configmap/volume-pod.yaml`
+`kubectl create -f volume-pod.yaml`
 
 
 #### This pod runs a cat command to print the value of one of the keys in the volume:
