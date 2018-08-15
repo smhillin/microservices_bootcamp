@@ -53,7 +53,7 @@ https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persis
 
 ### Example Voting App(microservices example)
 
-https://github.com/dockersamples/example-voting-app
+https://github.com/smhillin/microservices_bootcamp/tree/master/example-voting-app
 
 
 ### Other Practice Repos
