@@ -4,8 +4,12 @@
 ## Step One: Create the ConfigMap
 
 #### Download Yaml File
-`wget http://pwittrock.github.io/docs/user-guide/configmap/configmap.yaml`
 
+`wget https://github.com/smhillin/microservices_bootcamp/tree/master/labs/files/configmap.yaml`
+
+#### Create ConfigMap
+
+`kubectl create -f configmap.yaml`
 
 #### You can use kubectl to see information about the ConfigMap:
 
