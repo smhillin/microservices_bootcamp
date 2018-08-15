@@ -1,6 +1,11 @@
+
+
+
 # Create a Logging Pod
 
-`kubectl`
+http://kubernetesbyexample.com/logging/
+
+`kubectl create -f https://raw.githubusercontent.com/mhausenblas/kbe/master/specs/logging/pod.yaml`
 
 #### Grab the last few lines of logs
 
@@ -25,5 +30,3 @@
 #### Clean up
 
 `kubectl delete -f https://raw.githubusercontent.com/mhausenblas/kbe/master/specs/logging/oneshotpod.yaml`
-
-http://kubernetesbyexample.com/logging/
