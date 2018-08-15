@@ -57,6 +57,9 @@ https://github.com/smhillin/intro_to_kubernetes/blob/master/creating-volume.md
 ### Wordpress/MYSQL Volumes
 https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
 
+### Stateful Sets
+
+https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
 
 ### Example Voting App(microservices example)
 
